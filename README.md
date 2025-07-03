@@ -2,7 +2,7 @@
 
 A music visualizer for the BlinkStick adapted from Will Yager's LED music visualizer project: http://yager.io/LEDStrip/LED.html
 
-Finds the loudest frequency, assigns it a hue according to its frequency and a brightness according to its loudness and creates a scrolling stream of these colors. Looks good even with few LEDs, although with lots of LEDs (like the BlinkStick Flex) it looks better with looping (enabled by default).
+BlinkFlash analyzes the loudness of each frequency bucket in your music, assigns each bucket a color with lower frequencies being on the redder end of the spectrum, and the highest frequencies being blue. Each bucket is drawn onto the strip, with louder frequencies being both brighter and larger, taking up more space on the strip. Overall gives a nice shimmery effect on gentle music with a spread of frequencies, and really accentuates percussion on more energetic music, overall I think this one might be my favorite!
 
 Video demo of this script and others:
 
